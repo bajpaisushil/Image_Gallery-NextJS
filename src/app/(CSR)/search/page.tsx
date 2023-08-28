@@ -1,5 +1,3 @@
-"use client";
-
 import SearchPage from "./SearchPage";
 
 export const metadata={

@@ -7,6 +7,7 @@ import { UnsplashImage } from "@/models/unsplashImage";
 import Image from "next/image";
 import styles from './SearchPage.module.css';
 
+
 export default function SearchPage(){
     const [searchResults, setSearchResults]=useState<UnsplashImage[] | null>(null);
     const [searchResultsLoading, setSearchResultsLoading]=useState(false);
